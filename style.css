@@ -176,6 +176,12 @@ body{
     .user-info{
         padding-right:110px ;
     }
+    .user-text-top{
+        font-size: 12px;
+    }
+    .user-text-bottom{
+        font-size: 12px;
+    }
 
     .social{
 
