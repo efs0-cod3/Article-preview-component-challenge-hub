@@ -93,11 +93,11 @@ body{
     height: 40px;
     cursor: pointer;
     z-index: 1;
-    background: hsl(210, 46%, 95%) url(/images/icon-share.svg) no-repeat center;
+    background: hsl(210, 46%, 95%) url(images/icon-share.svg) no-repeat center;
 }
 .share-btn:focus{
     
-    background: hsl(212, 23%, 69%) url(/images/icon-share.svg) no-repeat center;
+    background: hsl(212, 23%, 69%) url(images/icon-share.svg) no-repeat center;
 }
 
 
