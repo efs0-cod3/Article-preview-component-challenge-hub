@@ -97,7 +97,7 @@ body{
 }
 .share-btn:focus{
     
-    background: hsl(217, 19%, 35%) url(/images/icon-share.svg) no-repeat center;
+    background: hsl(212, 23%, 69%) url(/images/icon-share.svg) no-repeat center;
 }
 
 
