@@ -51,6 +51,7 @@ Users should be able to:
 ### Continued development
 
 I couldn't change the svg color, still trying
+Edit: I've used a cdn to get an icon and had the derired result!
 
 ## Author
 
