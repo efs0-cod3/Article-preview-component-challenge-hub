@@ -2,7 +2,7 @@
 
 
 
-body{
+body {
     font-family: manrope;
     background-color: hsl(210, 46%, 95%);
 }
@@ -39,7 +39,7 @@ body{
     color: hsl(217, 19%, 35%);
     line-height: 1.5;
     margin: 0;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .details {
@@ -57,7 +57,8 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.user-cont{
+
+.user-cont {
     display: flex;
     align-items: center;
 }
@@ -93,12 +94,18 @@ body{
     height: 40px;
     cursor: pointer;
     z-index: 1;
-    background: hsl(210, 46%, 95%) url(images/icon-share.svg) no-repeat center;
+    background: hsl(210, 46%, 95%);
+    color: hsl(217, 19%, 35%);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.share-btn:focus{
-    
-    background: hsl(212, 23%, 69%) url(images/icon-share.svg) no-repeat center;
-}
+
+/* .share-btn:focus {
+    color: hsl(210, 46%, 95%);
+    background: hsl(212, 23%, 69%);
+} */
 
 
 
@@ -114,76 +121,84 @@ body{
     align-items: center;
 }
 
-.social-share{
+.social-share {
     padding-left: 30px;
     font-weight: 300;
     color: hsl(212, 23%, 69%);
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+
 .social-img {
     padding: 0 15px;
 }
-.social-left{
+
+.social-left {
     padding-left: 15px;
 }
-.social a{
+
+.social a {
     height: 20px;
 }
 
-@media screen and (min-width:745px){
-    .card{
+@media screen and (min-width:745px) {
+    .card {
         width: 730px;
         height: 280px;
-        overflow:visible;
+        overflow: visible;
     }
+
     .card-content {
         display: flex;
     }
 
-    .card-img{
+    .card-img {
         width: 285px;
         height: 280px;
     }
+
     .c-img {
         width: 285px;
         height: 280px;
         border-radius: 5px 0 0 5px;
     }
-    
-    .card-info{
+
+    .card-info {
         height: 280px;
         padding-left: 40px;
         padding-top: 25px;
     }
+
     .title {
         font-size: 20px;
         padding-top: 0;
     }
 
-    .details{
+    .details {
         font-size: 14px;
-        padding:10px 0
+        padding: 10px 0
     }
 
     .user-card {
         height: 50px;
         padding-top: 10px;
 
-        
+
     }
-   
-    .user-info{
-        padding-right:110px ;
+
+    .user-info {
+        padding-right: 110px;
     }
-    .user-text-top{
-        font-size: 12px;
-    }
-    .user-text-bottom{
+
+    .user-text-top {
         font-size: 12px;
     }
 
-    .social{
+    .user-text-bottom {
+        font-size: 12px;
+    }
+
+    .social {
 
         width: fit-content;
         padding: 16px 30px;
@@ -194,13 +209,14 @@ body{
         bottom: 134px;
     }
 
-    .social-share{
-        padding:0;
+    .social-share {
+        padding: 0;
         margin: 0;
     }
-    .square{
+
+    .square {
         width: 20px;
-        height:20px;
+        height: 20px;
         background-color: hsl(217, 19%, 35%);
         position: absolute;
         top: 42px;
@@ -210,3 +226,11 @@ body{
     }
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
